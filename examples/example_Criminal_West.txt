@@ -1,0 +1,7 @@
+Misil(M1)
+Posee(Nono,M1)
+Misil(x) & Posee(Nono,x) => Vende(West,x,Nono)
+Vende(West,x,Nono) => Criminal(West)
+
+Consulta:
+Criminal(West)
